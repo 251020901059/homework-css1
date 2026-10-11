@@ -27,8 +27,8 @@ header h1 {
 }
 
 nav {
-    background-color: #0f4c5c;
-    padding: 12px 0;
+    background-color: #0b3c4d;
+    padding: 15px 0;
 }
 
 nav ul {
@@ -36,6 +36,7 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -43,16 +44,18 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
-    padding: 8px 18px;
-    border-radius: 4px;
-    background-color: #fb8b24;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #000000; /* Dùng nền đen tuyền cho nút menu để đạt độ tương phản tối đa 100% với chữ trắng */
+    border: 2px solid #ffffff; /* Viền trắng để nút nổi bật và đẹp hơn */
     transition: background-color 0.3s ease;
 }
 
 nav a:hover, nav a:focus {
-    background-color: #d00000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     text-decoration: none;
+
 }
 
 main {
