@@ -46,8 +46,8 @@ nav a {
     font-size: 1.1rem;
     padding: 10px 20px;
     border-radius: 6px;
-    background-color: #000000; /* Dùng nền đen tuyền cho nút menu để đạt độ tương phản tối đa 100% với chữ trắng */
-    border: 2px solid #ffffff; /* Viền trắng để nút nổi bật và đẹp hơn */
+    background-color: #000000; 
+    border: 2px solid #ffffff; 
     transition: background-color 0.3s ease;
 }
 
