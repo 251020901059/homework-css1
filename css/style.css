@@ -109,16 +109,15 @@ main a:hover, main a:focus {
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 25px 20px;
     background-color: #0f4c5c;
-    color: #ffffff;
+    color: #ffffff; 
     margin-top: 40px;
-    font-size: 0.95rem;
+    font-size: 1rem;
 }
 
 footer a {
-    color: #fb8b24;
-    text-decoration: underline;
+    color: #ffcc00; 
 }
 
 footer a:hover, footer a:focus {
